@@ -1,0 +1,25 @@
+# Build output and local results
+/target/
+/results/
+/resultados/
+*.class
+*.log
+
+# Local configuration; keep the example in the repository
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Editor and operating system temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
